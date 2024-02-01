@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    background: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+section.images{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    border: 2px solid red;
+}
+/* texts section */
+section.texts{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background: lightsalmon;
+    z-index: -1;
+}
+/* text section */
+
+#cow{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+.baku{
+    background: url(./baku.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 20%;
+    cursor: pointer;
+    text-align: center;
+}
